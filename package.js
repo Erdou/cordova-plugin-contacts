@@ -11,7 +11,7 @@ var server      = ['server'];
 var browser     = ['web.browser'];
 
 Cordova.depends({
-    'org.apache.cordova.contacts': '1.1.0-dev'
+    'org.apache.cordova.contacts': '1.1.0'
 });
 
 Package.on_use(function(api) {

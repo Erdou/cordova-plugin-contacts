@@ -1,7 +1,7 @@
 Package.describe({
     summary: "Cordova contacts plugin integration for Meteor",
     version: "0.0.1",
-    name: "Erdou:contacts",
+    name: "erdal:cordova-contacts",
     git: "https://github.com/Erdou/cordova-plugin-contacts.git"
 });
 
@@ -22,7 +22,7 @@ Package.on_use(function(api) {
 });
 
 Package.on_test(function (api) {
-    api.use(['test-helpers', 'tinytest', 'Erdou:contacts']);
+    api.use(['test-helpers', 'tinytest', 'erdal:cordova-contacts']);
 
     api.add_files([
         'tests/test.js'
